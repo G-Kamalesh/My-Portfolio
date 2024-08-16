@@ -53,7 +53,6 @@ elif select == 'Skills':
     st.markdown("<h2 style='text-align: center; color: teal;'>📊 Data Analysis</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🧪 Pandas</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔢 Numpy</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-size: 18px;'>🔍 EDA (Exploratory Data Analysis)</p>", unsafe_allow_html=True)
 
     # Data Visualization
     st.markdown("---")
@@ -87,7 +86,8 @@ elif select == 'Skills':
     st.markdown("<p style='text-align: center; font-size: 18px;'>📓 Jupyter Notebook</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🛠️ Data Preprocessing</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔄 ETL (Extract, Transform, Load)</p>", unsafe_allow_html=True)
-
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔍 EDA (Exploratory Data Analysis)</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🗂️ Feature Engineering</p>", unsafe_allow_html=True)
 
 elif select == 'Projects':
     
