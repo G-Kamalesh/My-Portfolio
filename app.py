@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.set_page_config(page_title="Kamalesh", layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title="Kamalesh-Portfolio", layout='wide', initial_sidebar_state='expanded')
 
 with st.sidebar:
     option = ['About me', 'Skills', 'Projects', 'Experience']
-    st.image(r"C:\Users\Candy Man\Downloads\Linkedin\Profile Pic\profile-pic (4).png")
+    st.image("profile-pic (4).png")
     select = st.selectbox("Check me out", option, placeholder=option[0])
     st.text("For Contact")
     left,right = st.columns([0.5,0.5],vertical_alignment="bottom")
@@ -25,10 +25,10 @@ with st.sidebar:
 if select == 'About me':
     c1, c2, c3 = st.columns([0.2, 0.6, 0.2])
     c1.title("🎉")
-    c2.image("https://www.freepnglogos.com/uploads/welcome-png/welcome-profile-emmers-zwooperm-16.png")
+    c2.image("welcome-profile-emmers-zwooperm-16.png")
     c3.title("🎉")
     d1, d2 = st.columns([0.5, 0.5], gap="medium")
-    d2.image("https://zeevector.com/wp-content/uploads/Clipart/Welcome-hand-Clipart.png")
+    d2.image("Welcome-hand-Clipart.png")
     d1.markdown("")
     d1.markdown("")
     d1.markdown("<h1 style='text-align: center; color: orange;'>🚀 I'm Kamalesh</h1>", unsafe_allow_html=True)
