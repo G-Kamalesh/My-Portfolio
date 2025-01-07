@@ -82,7 +82,7 @@ elif select == 'Skills':
 
     # Machine learning
     st.markdown("---")
-    st.markdown("<h2 style='text-align: center; color: crimson;'>📊 Machine Learning</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: crimson;'>📊 Machine Learning Algorithms</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>📈 Linear Regression</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔗 Logistic Regression</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🌳 Decision Tree</p>", unsafe_allow_html=True)
@@ -120,7 +120,6 @@ elif select == 'Skills':
     st.markdown("<p style='text-align: center; font-size: 18px;'>📦 Data Augmentation</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔄 Cross-Validation</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🎛️ Hyperparameter Tuning</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-size: 18px;'>✂️ Text Preprocessing</p>", unsafe_allow_html=True)
 
 elif select == 'Projects':
     
