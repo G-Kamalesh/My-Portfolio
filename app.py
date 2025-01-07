@@ -80,6 +80,35 @@ elif select == 'Skills':
     st.markdown("<h2 style='text-align: center; color: darkorange;'>🌐 Web Development</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🌟 Streamlit</p>", unsafe_allow_html=True)
 
+    # Machine learning
+    st.markdown("---")
+    st.markdown("<h2 style='text-align: center; color: crimson;'>📊 Machine Learning</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📈 Linear Regression</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔗 Logistic Regression</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🌳 Decision Tree</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🌲 Random Forest</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📍 K-Nearest Neighbors (KNN)</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>➖ Support Vector Machine (SVM)</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🤖 Artificial Neural Networks (ANN)</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🖼️ Convolution Neural Network (CNN)</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔗🤖 DNN Logistic Regression</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📈🤖 DNN Linear Regression</p>", unsafe_allow_html=True)
+
+    # Machine learning
+    st.markdown("---")
+    st.markdown("<h2 style='text-align: center; color: crimson;'>🌟 ML Frameworks and Libraries</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔥 Tensorflow 2.0</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔧 Keras</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🧪 Scikit-learn</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📓 Jupyter Notebook</p>", unsafe_allow_html=True)
+
+    # NLP
+    st.markdown("---")
+    st.markdown("<h2 style='text-align: center; color: crimson;'>✍️ NLP and Text Processing</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>✂️ Text Preprocessing</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📚 Tokenization</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📝 Text Classification</p>", unsafe_allow_html=True)
+    
     # Others
     st.markdown("---")
     st.markdown("<h2 style='text-align: center; color: crimson;'>🛠️ Others</h2>", unsafe_allow_html=True)
@@ -88,6 +117,10 @@ elif select == 'Skills':
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔄 ETL (Extract, Transform, Load)</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔍 EDA (Exploratory Data Analysis)</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🗂️ Feature Engineering</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>📦 Data Augmentation</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🔄 Cross-Validation</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>🎛️ Hyperparameter Tuning</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>✂️ Text Preprocessing</p>", unsafe_allow_html=True)
 
 elif select == 'Projects':
     
