@@ -92,7 +92,7 @@ elif select == 'Skills':
 elif select == 'Projects':
     
     st.markdown("<h1 style='text-align: center; color: red;'>My Projects</h1>", unsafe_allow_html=True)
-    st.caption("Total Project: 7")
+    st.caption("Total Project: 11")
     
     with st.expander("YouTube Data Harvesting and Warehousing using SQL and Streamlit"):
         st.text(""" 
@@ -172,6 +172,43 @@ elif select == 'Projects':
             """)
         st.link_button("Check Code Here","https://github.com/G-Kamalesh/PhonePe-EDA")
         st.info("Python Scripting, Github Cloning, Pandas, MySQL, mysql-connector-python, Streamlit, Plotly, EDA",icon="ℹ️")
+
+    with st.expander("SpamSifter: Intelligent SMS Classification with Deep Learning"):
+            st.text(""" 
+                    SpamSifter is a machine learning project designed to classify SMS messages as "ham" (normal) or
+                    "spam" (advertisements). It uses random undersampling to balance the dataset and Keras TextVectorizer 
+                    for efficient text preprocessing. The model, built with Keras, outputs a spam likelihood score and label 
+                    for each message. This project showcases advanced NLP techniques and deep learning for accurate text classification.
+                """)
+            st.link_button("Check Code Here","https://github.com/G-Kamalesh/Neural-Network-Spam-Classification")
+            st.info("Python Scripting, Pandas, Tensorflow 2.0(Using Keras API), Data Sampling Technique, Matplotlib",icon="ℹ️")
+
+    with st.expander("Healthcare Cost Prediction"):
+        st.text(""" 
+              This project is focused on predicting healthcare costs using a regression algorithm.
+              The goal is to build a machine learning model that generalizes well and predicts 
+              healthcare expenses within an acceptable error range.
+            """)
+        st.link_button("Check Code Here","https://github.com/G-Kamalesh/DNN_Linear_Regression")
+        st.info("Python Scripting, Pandas, Numpy, Tensorflow 2.0(Using Keras API), Data Pre-Processing, Matplotlib",icon="ℹ️")
+
+    with st.expander("Cat & Dog Image Classifier"):
+        st.text(""" 
+                    A deep learning project that uses a Convolutional Neural Network (CNN) built with Keras to classify
+                    images of cats and dogs. This project demonstrates image preprocessing, model building, data augmentation,
+                    and performance evaluation techniques.
+                            """)
+        st.link_button("Check Code Here","https://github.com/G-Kamalesh/Deep_Learning_Cat_-_Dog_Image_Classifier")
+        st.info("Python Scripting, Data Augmentation, Tensorflow 2.0(Using Keras API), Matplotlib",icon="ℹ️")
+
+    with st.expander("A Personalized Book Recommendation System"):
+        st.text(""" 
+                This is an intelligent recommendation system designed to connect readers with books they’ll love.
+                Built using collaborative filtering techniques, this project leverages user ratings and preferences
+                to suggest personalized book recommendations.
+            """)
+        st.link_button("Check Code Here","https://github.com/G-Kamalesh/Smart-recommendations-for-book-lovers")
+        st.info("Python Scripting, Pandas, Unsupervised KNN, Scikit-Learn",icon="ℹ️")
 
 
 
