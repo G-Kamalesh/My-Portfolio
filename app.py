@@ -265,10 +265,38 @@ elif select == 'Experience':
     st.header("GUVI GEEK NETWORK PRIVATE LIMITED")
     st.subheader("Master Data Science 2024")
     st.text("""
-            * I am a passionate Data Scientist with a background in Mechanical Engineering.
-              My journey from engineering to data science has fueled my enthusiasm for turning
-              raw data into actionable insights.
-            * I have completed 🚀 7+ Data Science Projects Ranging from geospatial analysis
-              to machine learning model deployment, with a strong focus on creating impactful solutions.
+            * Comprehensive Machine Learning Knowledge: Acquired expertise in various machine learning algorithms,
+              including linear regression, logistic regression, decision trees, random forests, AdaBoosting, SVM, KNN, and K-means clustering.
+
+            * Strong Foundation in Data Visualization: Gained proficiency in creating insightful visualizations using
+              Matplotlib and Seaborn, essential for data exploration and communicating findings effectively.
+
+            * Solid Understanding of Statistics and Probability: Built a strong statistical foundation, enabling
+              data-driven decision-making and the ability to model uncertainties effectively.
+
+            * Practical Application through Projects: Successfully completed 7+ projects, demonstrating hands-on
+              experience in solving real-world problems using advanced data science techniques.
+
+            * End-to-End Workflow Skills: Developed skills to handle the complete data science pipeline,
+              including data preprocessing, model selection, evaluation, and interpretation of results.
             """)
 
+    st.divider()
+    st.header("freeCodeCamp")
+    st.subheader("Machine Learning with Tensorflow (Using Keras API)")
+    st.text("""
+            * Solid Foundation in Machine Learning: Gained a deep understanding of core machine learning concepts,
+              including regression, classification, CNN, LSTM, RNN using TensorFlow.
+
+            * Deep Learning Expertise: Built and trained Deep Neural Networks (DNNs) for logistic and linear
+              regression, mastering the application of neural networks for predictive modeling.
+
+            * Advanced Neural Network Design: Learned to design and implement a custom Convolutional Neural
+              Network (CNN), enhancing proficiency in deep learning techniques for image and feature-based analysis.
+
+            * Practical Experience in Algorithm Development: Explored unsupervised learning by implementing
+              K-Nearest Neighbors (KNN), showcasing knowledge in clustering and data segmentation techniques.
+
+            * Creative Problem-Solving with AI: Developed a bot that outperformed 4 other bots in a rock-paper-scissors
+              challenge, demonstrating practical application of learning, creativity, and an ability to implement AI strategies effectively.
+            """)
