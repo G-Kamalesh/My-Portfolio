@@ -204,7 +204,7 @@ elif select == 'Projects':
         st.link_button("Check Code Here","https://github.com/G-Kamalesh/PhonePe-EDA")
         st.info("Python Scripting, Github Cloning, Pandas, MySQL, mysql-connector-python, Streamlit, Plotly, EDA",icon="ℹ️")
 
-    with st.expander("SpamSifter: Intelligent SMS Classification with Deep Learning"):
+    with st.expander("SpamSifter: Intelligent SMS Classification using DNN Logistic Regression"):
             st.text(""" 
                     SpamSifter is a machine learning project designed to classify SMS messages as "ham" (normal) or
                     "spam" (advertisements). It uses random undersampling to balance the dataset and Keras TextVectorizer 
@@ -214,7 +214,7 @@ elif select == 'Projects':
             st.link_button("Check Code Here","https://github.com/G-Kamalesh/Neural-Network-Spam-Classification")
             st.info("Python Scripting, Pandas, Tensorflow 2.0(Using Keras API), Data Sampling Technique, Matplotlib",icon="ℹ️")
 
-    with st.expander("Healthcare Cost Prediction"):
+    with st.expander("Healthcare Cost Prediction using DNN Linear Regression"):
         st.text(""" 
               This project is focused on predicting healthcare costs using a regression algorithm.
               The goal is to build a machine learning model that generalizes well and predicts 
@@ -223,7 +223,7 @@ elif select == 'Projects':
         st.link_button("Check Code Here","https://github.com/G-Kamalesh/DNN_Linear_Regression")
         st.info("Python Scripting, Pandas, Numpy, Tensorflow 2.0(Using Keras API), Data Pre-Processing, Matplotlib",icon="ℹ️")
 
-    with st.expander("Cat & Dog Image Classifier"):
+    with st.expander("Cat & Dog Image Classifier using Custom CNN"):
         st.text(""" 
                     A deep learning project that uses a Convolutional Neural Network (CNN) built with Keras to classify
                     images of cats and dogs. This project demonstrates image preprocessing, model building, data augmentation,
@@ -232,7 +232,7 @@ elif select == 'Projects':
         st.link_button("Check Code Here","https://github.com/G-Kamalesh/Deep_Learning_Cat_-_Dog_Image_Classifier")
         st.info("Python Scripting, Data Augmentation, Tensorflow 2.0(Using Keras API), Matplotlib",icon="ℹ️")
 
-    with st.expander("A Personalized Book Recommendation System"):
+    with st.expander("A Personalized Book Recommendation System using Unsupervised KNN"):
         st.text(""" 
                 This is an intelligent recommendation system designed to connect readers with books they’ll love.
                 Built using collaborative filtering techniques, this project leverages user ratings and preferences
