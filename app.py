@@ -100,7 +100,6 @@ elif select == 'Skills':
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔥 Tensorflow 2.0</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🔧 Keras</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>🧪 Scikit-learn</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-size: 18px;'>📓 Jupyter Notebook</p>", unsafe_allow_html=True)
 
     # NLP
     st.markdown("---")
@@ -194,7 +193,7 @@ elif select == 'Projects':
         st.link_button("Check Code Here","https://github.com/G-Kamalesh/Toxic-Tweet-Detector-using-NLP")
         st.info("Python Scripting, NLP, Sampling, Text cleaning, Tokenization, CountVectorizer, TfIdfVectorizer, Machine Learning Technique, Linear Classification",icon="ℹ️")
 
-    with st.expander("Phonepe Pulse Data Visualization and Exploration:A User-Friendly Tool Using Streamlit and Plotly"):
+    with st.expander("Pulse Insights: Interactive Data Exploration Dashboard"):
         st.text(""" 
                 The PhonePe Pulse Data Visualization project creates an interactive dashboard using Python, Pandas,
                 MySQL, Streamlit, and Plotly to transform raw data into actionable insights. It offers a dynamic 
